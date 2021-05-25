@@ -6,6 +6,9 @@ from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from ajouter import *
 from PyQt5.QtWidgets import QTableWidgetItem, QApplication, QPushButton, QMessageBox
+from reportlab.pdfgen import canvas
+from reportlab.lib.pagesizes import letter
+import pandas.io.sql as sql
 
 
 class Ui_MainWindow(object):
